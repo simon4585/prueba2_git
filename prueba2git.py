@@ -8,6 +8,7 @@ def si():
     ventanaSI.configure(bg="black")
     label = tk.Label(ventanaSI, text="Muchas gracias por confiar\n empesemos con la prueba de git\n cual es tu nommbre?")
     entrynombre=tk.Entry(ventanaSI)
+    label2 = tk.Label(ventanaSI, text="Listo para inciciar?", bg="turquoise2", fg="white", font=("Arial", 15))
     boton=tk.Button(ventanaSI, text="continuar")
     
     label.pack()

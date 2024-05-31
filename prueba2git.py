@@ -13,6 +13,7 @@ def si():
     
     label.pack()
     entrynombre.pack()
+    label2.pack()
     boton.pack()
     ventanaSI.mainloop()
     
